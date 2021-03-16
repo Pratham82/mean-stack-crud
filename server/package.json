@@ -1,0 +1,27 @@
+{
+  "name": "express-mongo-crud",
+  "version": "1.0.0",
+  "description": "CRUD API with mongoDb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "CRUD"
+  ],
+  "author": "Prathamesh Mali",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.17"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
