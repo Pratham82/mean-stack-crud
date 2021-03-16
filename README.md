@@ -11,7 +11,7 @@ cd server && npm i
 
 ## Usage:
 
-go to client's `package.json` and add the `PORT` and `MONGO_URI` in `npm run server:all` script. This will spun up client and server simultaneously using `concurrently` npm package.
+go to client's `package.json` and add the `PORT` and `MONGO_URI` in `npm run server` script. Then run `npm run server:all` this will spun up client and server simultaneously using `concurrently` npm package.
 
 ```
 cd client
