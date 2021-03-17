@@ -11,6 +11,3 @@ npm install
 ```
 
 To start the app run
-
-
-[Workshop Slides](/Angular_9_Fundamentals.pdf)
