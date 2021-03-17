@@ -18,6 +18,28 @@ cd client
 npm run server:all
 ```
 
+## Server architecture:
+
+```
+ .
+├──  app.js
+├──  config
+│  └──  db.js
+├──  controllers
+│  ├──  createNewCourse.js
+│  ├──  deleteCourse.js
+│  ├──  getAllCourses.js
+│  ├──  getCourse.js
+│  └──  updateCourse.js
+├──  models
+│  └──  Course.js
+├──  package-lock.json
+├──  package.json
+├──  README.md
+└──  routes
+   └──  courseRoutes.js
+```
+
 ## Screenshots:
 
-[![Screenshot-from-2021-03-17-03-46-01.png](https://i.postimg.cc/ht3MB0Vv/Screenshot-from-2021-03-17-03-46-01.png)](https://postimg.cc/RWKw1Ksx)
+[![Screenshot-from-2021-03-17-09-09-47.png](https://i.postimg.cc/zBd1wJ7t/Screenshot-from-2021-03-17-09-09-47.png)](https://postimg.cc/k6tZqPkK)
