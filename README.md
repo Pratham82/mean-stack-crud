@@ -32,7 +32,7 @@ npm run server:all
 
 <br>
 
-## Server architecture:
+## Server folder structure:
 
 ```
 ├── app.js
